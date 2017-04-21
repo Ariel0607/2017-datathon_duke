@@ -78,6 +78,7 @@ econ = econ%>%
   select(-year,-quarter,-Q)
 
 econ = write.csv(econ, "econ_state.csv")
+
 ```
 
 
